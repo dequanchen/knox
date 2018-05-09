@@ -15,8 +15,9 @@
    See the License for the specific language governing permissions and
    limitations under the License.
    The code is tested to be working for:
-   (1)	Any Elasitcsearch Index - creation, deletion, refreshing and data - writing, updating, and retrieval;
-   (2)	Elasticsearch node root query.
+   (1) Any Elasitcsearch Index - creation, deletion, refreshing and data - writing, updating, and retrieval;
+   (2) Elasticsearch node root query.
+   (3) The code is tested to be working for No-LDAP, Local-LDAP or company-specific-LDAP authentication in a Knox Gateway topology
 -->
 
 <rules>

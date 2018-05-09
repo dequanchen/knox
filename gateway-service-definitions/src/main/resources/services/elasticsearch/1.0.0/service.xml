@@ -13,16 +13,13 @@
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.
-   The code is tested to be working for No-LDAP, Local-LDAP or company-specific-LDAP authentication in a Knox Gateway topology
+   limitations under the License.   
 -->
 
 <service role="ELASTICSEARCH" name="elasticsearch" version="1.0.0">
     <policies>
-        <policy role="webappsec"/>
-        <policy role="authentication" name="Anonymous"/>
-        <policy role="rewrite"/>
-        <policy role="authorization"/>
+        <policy role="webappsec"/>        
+        <policy role="rewrite"/>        
     </policies>
     <routes>
         <route path="/elasticsearch"/>
